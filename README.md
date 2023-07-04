@@ -31,3 +31,19 @@
 docker login 
 git config name & email
 ssh-keygen 
+#### 4_gitCloneInu.sh
+##### 批次clone專案的shell script，以下為目前有clone到的專案
+##### 可另外參考： https://books.grandsys.com:6008/books/26e35/page/cloneshell-script
+"iNu/inu-sync-adapter"
+"iNu/inu-qa-service"
+"iNu/inu-auth-service"
+"iNu/inu-qa-frontend"
+"iNu/inu-label-service"
+"iNu/inu-common-service"
+"iNu/inu-tokenizer"
+"iNu/inu-stt-adapter"
+"iNu/inu-e2e-tester"
+"iNu/customized/cathay/helm-cathay"
+"iNu/customized/sinopac/helm-sinopac"
+"iNu/customized/esun/esun-helmfile"
+"iNu/inu-utility"
