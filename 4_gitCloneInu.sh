@@ -1,4 +1,7 @@
 #! /bin/bash
+# ！！！此腳本使用 bash 指令方可執行！！！
+# 批次clone專案的shell script，以下為目前有clone到的專案
+# 可另外參考： https://books.grandsys.com:6008/books/26e35/page/cloneshell-script
 
 # Color
 RED='\033[0;31m'

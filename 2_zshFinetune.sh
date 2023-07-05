@@ -1,4 +1,5 @@
 #!/bin/bash
+# zsh 的細部設定，如果沒有安裝，此腳本可跳過
 
 # 安裝zsh themes
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -18,5 +19,3 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/.zshrc
 sed -i 's/plugins=(git)/plugins=(\ngit\nzsh-completions\nzsh-autosuggestions\nzsh-syntax-highlighting\n)/' ~/.zshrc
-
-source ~/.zshrc

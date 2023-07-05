@@ -1,4 +1,5 @@
 #!/bin/bash
+# 使用前請先登vpn
 
 # docker login
 echo "將執行 docker login"
