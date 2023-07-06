@@ -8,7 +8,7 @@ sudo apt install -y git
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
-# 安裝 openlens
+# 安裝 openlens 6.2.0
 wget https://github.com/MuhammedKalkan/OpenLens/releases/download/v6.2.0/OpenLens-6.2.0.deb
 sudo dpkg -i OpenLens-6.2.0.deb
 
@@ -22,7 +22,6 @@ echo '' >> ~/.bashrc
 echo 'export GOPROXY="http://ci.grandsys.com:90"' >> ~/.bashrc
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
 cd ubuntuInstallScript
-# go version
 
 # 安裝 docker
 sudo snap install docker
@@ -58,18 +57,18 @@ sudo snap install htop
 # 安裝 spotify
 sudo snap install spotify
 
-# 安裝 forticlient，這邊會因相依套件失敗
+# 安裝 forticlient，會因相依套件而有 error 產生
 wget https://filestore.fortinet.com/forticlient/forticlient_vpn_7.0.7.0246_amd64.deb
 sudo dpkg -i forticlient_vpn_7.0.7.0246_amd64.deb
 
-# 安裝 mongo compass，這邊會因相依套件失敗
+# 安裝 mongo compass，會因相依套件而有 error 產生
 wget https://downloads.mongodb.com/compass/mongodb-compass_1.38.2_amd64.deb
 sudo dpkg -i mongodb-compass_1.38.2_amd64.deb
 
-# 安裝 filezilla，這邊會因相依套件失敗
+# 安裝 filezilla，會因相依套件而有 error 產生
 sudo apt install -y filezilla
 
-# 安裝 zsh，這邊會因相依套件失敗
+# 安裝 zsh，會因相依套件而有 error 產生
 sudo apt install -y zsh
 
 # 處理相依套件
